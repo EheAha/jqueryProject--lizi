@@ -1,0 +1,427 @@
+@import "_radius.scss";
+
+$height:178px;
+.top{
+    width:100%;
+    height:$height;
+
+    $height:26px;
+    .top_gray_wrap{
+        width:100%;
+        height:$height;
+        background:#f0f0f0;
+
+        $width:1180px;
+        .top_gray{
+            width:$width;
+            height:$height; 
+            margin:0 auto;
+
+            .topList>li{
+                float: left;
+                height:26px;
+                line-height:$height;
+                margin:0 9px;
+            }
+            .topList>.about{
+                position: relative;
+
+                .qr_code{
+                    width:154px;
+                    height:218px;
+                    border:1px solid #dddddd;
+                    position: absolute;
+                    top:100%;
+                    right:0;
+                    background: #fff;
+                    display: none;
+
+                    .qr_top{
+                        width:56px;
+                        height: 20px;
+                        margin:0 auto;
+                        padding: 14px 0;
+
+                        &>a{
+                            display:block;
+                            width:61px;
+                            height: 20px;
+
+                            &>span{
+                                display: block;
+                                float: left;
+                            }
+                            &>.weibo{
+                                width:18px;
+                                height: 18px;
+                                padding-top:2px;
+                                border:1px solid #dadada;
+                                background: #f8f8f7 url(../img/header-img/bg_flbtn.png) -190px 0 no-repeat;
+                            }
+                            &>.weibo_r{
+                                width:41px;
+                                height: 22px;
+                                background: url(../img/header-img/bg_flbtn.png) -84px 0 no-repeat;
+                            }
+                        }
+                    }
+
+                    .qr_bottom{
+                        padding: 0 17px;
+                        &>img{
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .topList>.about:hover .qr_code{
+                display: block;
+            }
+        }
+    }
+
+    $height:110px;
+    .top_center_wrap{
+        width:100%;
+        height:$height;
+        background: #fff;
+
+        $width:1180px;
+        .top_center{
+            width:$width;
+            height: $height;
+            margin:0 auto;
+            position: relative;
+
+            .logo{
+                width:142px;
+                height:54px;
+                margin-left:30px;
+                margin-top:18px;
+            }
+
+            .search{
+                width:514px;
+                margin:0 auto 0;
+                padding-top:30px;
+
+                .search_in{
+                    display: block;
+                    float: left;
+                    width:381px;
+                    height:36px;
+                    border:2px solid #ff666b;
+                    outline: none;
+                }
+                .search_out{
+                    cursor: pointer;
+                    display: block;
+                    float: left;
+                    width:129px;
+                    height:42px;
+                    background: url(../img/header-img/search-btn.png) no-repeat;
+                }
+
+                .hot_search{
+                    float: left;
+                    margin-top:12px;
+                    color:#999999;
+                    height:18px;
+                    line-height: 18px;
+                    overflow: hidden;
+
+                    a:nth-child(odd){
+                        color:#ff666b;
+                    }
+                    a:nth-child(even){
+                        color:#666666;
+                    }
+
+                    &>a:hover{
+                        text-decoration: underline;
+                        color:#ff666b;
+                    }
+                }
+            }
+
+            .top_car{
+                position: absolute;
+                top:24px;
+                right: 0;
+
+                a{
+                    display: block;
+                    width:114px;
+                    height:34px;
+                    font-size:14px;
+                    color:#999999;
+                    line-height: 38px;
+                    text-align: center;
+                    border:1px solid #dddddd;
+                    margin-right:10px;
+
+                    span{
+                        margin-left:10px
+                    }
+                }
+            }
+        }
+    }
+
+    $height:42px;
+    .top_bottom_wrap{
+        width:100%;
+        height: $height;
+        background: #34495e;
+
+        $width:1180px;
+        .top_bottom{
+            width:$width;
+            height: $height;
+            margin:0 auto;
+            
+            .nav{
+                &>li{
+                    float: left;
+                    height: $height;
+                    line-height: $height;
+                    padding:0 46px;
+                    color:#fff;
+                }
+                a{
+                    display: block;
+                    height: $height;
+                    line-height: $height;
+                    color:#fff;
+                }
+                .first{
+                    background: #ff666b;
+                    padding:0 49px;
+                    cursor: pointer;
+                    position: relative;
+
+                    $height:260px;
+                    .secondNav{
+                        width:1100px;
+                        height: $height;
+                        position: absolute;
+                        top:100%;
+                        left:0;
+                        background: #fff;
+                        border-top:1px solid #eee;
+                        border-right:1px solid #eee;
+                        overflow: hidden;
+                        display: none;
+                        z-index: 10;
+
+                        .navDetail{
+                            width:420px;
+                            height:$height;
+                            border-right:1px solid #eeeeee;
+
+                            .two{
+                                width:200px;
+                                height:100%;
+                                
+                                dl{
+                                    color:#000000;
+                                    font-size:12px;
+                                    line-height:26px;
+                                    padding-top:10px;
+                                    padding-left: 16px;
+
+                                    dt{
+                                        height: 26px;
+                                    }
+                                    dd{
+                                        a{
+                                            display: inline-block;
+                                            padding-right:12px;
+                                            height:26px;
+                                            line-height:26px;
+                                            color:#888888;
+                                        }
+                                        a:hover{
+                                            text-decoration: underline;
+                                            color:#ff666b;
+                                        }
+                                    }
+                                }
+                            }
+                            .three{
+                                width:220px;
+                                height:100%;
+
+                                dl{
+                                    color:#000000;
+                                    font-size:12px;
+                                    line-height:26px;
+                                    padding:10px 0 15px 16px;
+
+                                    dt{
+                                        height: 26px;
+                                    }
+                                    dd{
+                                        a{
+                                            display: inline-block;
+                                            padding-right:8px;
+                                            height:26px;
+                                            line-height:26px;
+                                            color:#888888;
+                                        }
+                                        a:hover{
+                                            text-decoration: underline;
+                                            color:#ff666b;
+                                        }
+                                    }
+                                }
+                            }
+
+                            dl:hover{
+                                background: #dddddd;
+                            }
+                            dt:hover{
+                                text-decoration: underline;
+                            }
+                            
+                            
+                        }
+                        .navBrand{
+                            background:#f00;
+                            width:678px;
+                            height: $height;
+                        
+                            &>li{
+                                float: left;
+                                width:226px;
+                                height:130px;
+
+                                a{
+                                    float: left;
+                                    width:226px;
+                                    height:130px;
+
+                                    img{
+                                        display: block;
+                                        width:226px;
+                                        height:130px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .first:hover .secondNav{
+                    display: block;
+                }
+                .i60:hover{
+                    background:#000; 
+                }
+                .iphon:hover{
+                    background:#000;
+                }
+            }
+        }
+    }
+}
+
+$width:320px;
+#pup_content{
+    width:$width;
+    height:322px;
+    padding:18px 30px 0 30px;
+    display: none;
+    
+    .content_top{
+        height: 24px;
+        line-height: 24px;
+        width:100%;
+        color:#40444d;
+
+        &>span,a{
+            display: block;
+        }
+        .px20{
+            font-size:20px;
+        }
+        .account{
+            font-size:12px;
+
+            &>a{
+                display: inline-block;
+                color:#40444d;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .content_middle{
+        width:100%;
+
+        &>.userLogin,.pwdLogin{
+            width:320px;
+            height: 30px;
+            border:1px solid #c9c9c9;
+            padding:6px 0;
+            margin-top:6px;
+
+            span{
+                display: block;
+                float: left;
+                width:42px;
+                height: 32px;
+                border-right: 1px solid #c9c9c9;
+            }
+
+            input{
+                border:none;
+                width:270px;
+                height:30px;
+                outline: none;
+                margin-left:3px;
+            }
+        }
+        &>.pwdLogin{
+            margin-top:15px;
+        }
+        &>.forget{
+            padding-top:4px;
+            height: 40px;
+            line-height: 40px;
+            color:#372e31;
+            
+            &>p{
+                text-decoration: underline;
+                float: right;
+            }
+        }
+        &>.subLogin>button{
+            display: block;
+            width:100%;
+            height: 48px;
+            border:1px solid #cc7b82;
+            background:#ff656d;
+            font-size: 18px;
+            letter-spacing: 10px;
+            color:#fff;
+            outline: none;
+        }
+    }
+
+    .content_bottom{
+        width:100%;
+        padding-top:15px;
+        
+        .thirdLogin{
+            height: 32px;
+            line-height: 32px;
+            color:#9d9d9d;
+        }
+        .other{
+            display: block;
+            width:110px;
+            height: 30px;
+            background: url(../img/header-img/other-login-bg.png);
+        }
+    }
+}

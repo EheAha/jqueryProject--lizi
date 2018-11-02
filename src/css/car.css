@@ -1,0 +1,96 @@
+.carwrap {
+  width: 100%;
+  background: #f5f5f5;
+  min-height: 420px;
+  height: auto !important;
+  height: 420px;
+  padding-top: 26px;
+}
+
+.carwrap #list {
+  width: 1180px;
+  height: auto;
+  text-align: center;
+  border-spacing: 0;
+  margin: 20px auto;
+}
+
+.carwrap #list tbody > tr {
+  border: 1px solid #ccc;
+  background: #fff;
+  height: 87px;
+}
+
+.carwrap #list tbody > tr > td {
+  margin-left: 40px;
+  width: 15%;
+}
+
+.carwrap #list tbody > tr > td > button {
+  float: left;
+  height: 22px;
+  width: 30px;
+  font-size: 18px;
+  outline: none;
+  margin-top: -1px;
+}
+
+.carwrap #list tbody > tr > td > input {
+  width: 40px;
+  height: 20px;
+  border: 0;
+  float: left;
+  outline: none;
+}
+
+.carwrap #list tbody > tr > td .reduce {
+  margin-left: 30px;
+}
+
+.carwrap #list tbody > tr > td .num {
+  text-align: center;
+}
+
+.carwrap #list tbody > tr > td .smallPic {
+  width: 35px;
+  height: 35px;
+}
+
+.carwrap #count {
+  width: 1165px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: right;
+  line-height: 60px;
+  background: #fff;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.carwrap #count .delgoods {
+  display: inline-block;
+  margin-right: 600px;
+  cursor: pointer;
+}
+
+.carwrap #count #allCount {
+  margin-right: 10px;
+}
+
+.carwrap #count #span {
+  display: inline-block;
+  margin-right: 50px;
+  color: #ff666b;
+}
+
+.carwrap #count .go {
+  display: inline-block;
+  width: 10%;
+  height: 100%;
+  background: #cccccc;
+  line-height: 60px;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}

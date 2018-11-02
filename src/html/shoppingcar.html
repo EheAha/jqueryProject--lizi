@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/head.css" />
+    <link rel="stylesheet" type="text/css" href="../css/foot.css" />
+    <link rel="stylesheet" type="text/css" href="../css/car.css" />
+</head>
+<body>
+    <!--top-->
+    <div class="top" id="top"></div>
+
+    <!--购物车-->
+<div class="carwrap">
+    <table id="list">
+        <tr id="first">
+            <td><input id="option" type="checkbox"><label for="option" >全选</label></td>
+            <td>图片</td>
+            <td>单价</td>
+            <td>数量</td>
+            <td>小计</td>
+            <td>操作</td>
+        </tr>
+        
+        <!--<tr>
+            <td><input id="choose" type="checkbox"></td>
+            <td><img src="imgs/1-small.jpg" class="smallPic"></td>
+            <td>￥255</td>
+            <td>
+                <button class="reduce">-</button>
+                <input type="text" value="1" class="num">
+                <button class="add">+</button>
+            </td>
+            <td>￥255</td>
+            <td class="del">删除</td>
+        </tr>-->
+    </table>
+    <div id="count">
+        <div class="left"><input id="alldel" type="checkbox" ><label for="alldel">全选</label></div>
+        <span class="delgoods">删除选择的商品</span>
+        <button id="allCount">总计：</button><span id="span">￥00</span>
+        <span class="go">去结算</span>
+    </div>
+</div>
+    <!--foot-->
+    <div class="foot_wrap">
+        <div class="foot" id="foot">
+        </div>
+    </div>
+</body>
+</html>
+<script src="../js/lib/jquery-1.11.3.js"></script>
+<script src="../js/common/header/header.js"></script>
+<script src="../js/common/header/Pop-ups-login.js"></script>
+<script src="../js/common/header/page.js"></script>
+<script src="../js/common/foot/foot.js"></script>
+<script src="../js/js/car.js"></script>

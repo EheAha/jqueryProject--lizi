@@ -1,0 +1,138 @@
+.brankwrap {
+  width: 100%;
+  background: #f5f5f5;
+  height: auto;
+}
+
+.brankwrap .brank {
+  width: 1180px;
+  height: 480px;
+  margin: 0 auto;
+}
+
+.brankwrap .brank > div {
+  width: 190px;
+  height: 480px;
+  background: #fff;
+}
+
+.brankwrap .brank .brank_left {
+  overflow: hidden;
+}
+
+.brankwrap .brank .brank_left > a > img {
+  transform: scale(1);
+  transition: transform 1s;
+}
+
+.brankwrap .brank .brank_left > a:hover img {
+  transform: scale(1.2);
+}
+
+.brankwrap .brank > .brank_center {
+  width: 800px;
+  height: 480px;
+  background: #fff;
+  /* &>li:hover{
+                border-bottom: 1px solid #eee;
+            } */
+}
+
+.brankwrap .brank > .brank_center > li {
+  float: left;
+  width: 199px;
+  height: 79px;
+  border-right: 1px solid #eee;
+  overflow: hidden;
+}
+
+.brankwrap .brank > .brank_center > li > a {
+  display: block;
+  width: 199px;
+  height: 79px;
+}
+
+.brankwrap .brank > .brank_center > li > a > img {
+  width: 199px;
+  height: 79px;
+  transition: all .6s;
+}
+
+.brankwrap .brank > .brank_center > li:hover img {
+  transform: translateY(-4px);
+  vertical-align: top;
+}
+
+.foot_top_wrap {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  background: #f5f5f5;
+}
+
+.foot_top_wrap .foot_top {
+  width: 100%;
+  height: 281px;
+  background: url(../img/header-img/bg_foot.jpg) center center no-repeat;
+}
+
+.foot_top_wrap .foot_top .intrest {
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+  color: #eeeeee;
+  font-size: 16px;
+}
+
+.foot_top_wrap .foot_top .foot_search {
+  height: 66px;
+  width: 506px;
+  margin: 0 auto;
+}
+
+.foot_top_wrap .foot_top .foot_search .foot_searchin {
+  width: 430px;
+  height: 30px;
+  border: 1px solid #666666;
+  border-right: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: transparent;
+  outline: none;
+}
+
+.foot_top_wrap .foot_top .foot_search .foot_searchout {
+  display: float;
+  width: 40px;
+  height: 32px;
+  border: 1px solid #666666;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: none;
+  outline: none;
+  background: url(../img/header-img/search.gif) center center no-repeat;
+}
+
+.foot_top_wrap .foot_top .foot_search .hot_search {
+  float: left;
+  margin-top: 12px;
+  color: #999999;
+  height: 36px;
+  line-height: 36px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.foot_top_wrap .foot_top .foot_search .hot_search a:nth-child(odd) {
+  color: #ff666b;
+}
+
+.foot_top_wrap .foot_top .foot_search .hot_search a:nth-child(even) {
+  color: #666666;
+}
+
+.foot_top_wrap .foot_top .foot_search .hot_search > a:hover {
+  color: #ff666b;
+  text-decoration: underline;
+}

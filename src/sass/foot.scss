@@ -1,0 +1,107 @@
+.foot_wrap{
+    width:100%;
+    height:234px;
+    background:#2f4459;
+    border-top:1px solid #ff666b;
+
+    .foot{
+        width:1180px;
+        height: 214px;
+        padding-top:24px;
+        margin:0 auto;
+
+        .foot_left{
+            font-size:12px;
+            line-height: 28px;
+            color:#fff;
+            
+            .foot_about{
+                a{
+                    color:#fff; 
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+            }
+
+            .detail>p>span>i{
+                display: inline-block;
+                width:14px;
+                height:16px;
+                margin-right:5px;
+                background:url(../img/header-img/foot5.gif) no-repeat;
+            }
+            .detail>p>a{
+                color:#fff;
+            }
+            .detail>p>a:hover{
+                text-decoration: underline;
+            }
+            .detail>.foot_icon1>a{
+                display: block;
+                float: left;
+                margin-right: 20px;
+                margin-top:20px;
+            }
+        }
+
+        .foot_right{
+            position: relative;
+            width:290px;
+            height: 234px;
+            &>div{
+                float: left;
+                /* margin-top:40px; */
+                width:140px;
+                height:135px;
+                position: absolute;
+                top:40px;
+            }
+            
+            &>.weixin{
+                margin-right:80px;
+                text-align: center;
+                left:-20px;
+                
+                &>img{
+                    padding:0 25px;
+                }
+                &>i{
+                    display: block;
+                    width:140px;
+                    height:24px;
+                    background: url(../img/header-img/weixin.gif) center center no-repeat;
+                }
+                &>p{
+                    color:#fff;
+                    width:140px;
+                    font-size: 12px;
+                    line-height: 24px;
+                }
+
+            }
+
+            &>.cilent{
+                text-align: center;
+                left:160px;
+                color:#fff;
+                    width:140px;
+                    font-size: 12px;
+                    line-height: 24px;
+                &>img{
+                    padding:0 25px;
+                }
+                &>i{
+                    font-style: normal;
+                    font-weight: bold;
+                }
+               /*  &>p{
+                    color:#fff;
+                    width:140px;
+                    font-size: 12px;
+                    line-height: 24px;
+                } */
+            }
+        }
+    }
+}

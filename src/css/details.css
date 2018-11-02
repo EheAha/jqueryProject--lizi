@@ -1,0 +1,178 @@
+.msgwrap {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  margin-top: 66px;
+}
+
+.msgwrap .msg {
+  width: 1180px;
+  height: 460px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.msgwrap .msg .msgleft {
+  margin-right: 26px;
+  position: relative;
+}
+
+.msgwrap .msg .msgleft .box {
+  width: 352px;
+  height: 234px;
+  position: relative;
+}
+
+.msgwrap .msg .msgleft .box .img {
+  width: 352px;
+  height: 234px;
+}
+
+.msgwrap .msg .msgleft .box .filter {
+  width: 150px;
+  height: 150px;
+  background: #ffc016;
+  opacity: .35;
+  position: absolute;
+  display: none;
+}
+
+.msgwrap .msg .msgleft .minImg {
+  margin-top: 8px;
+  position: absolute;
+}
+
+.msgwrap .msg .msgleft .minImg .small {
+  float: left;
+  width: 64px;
+  height: 42px;
+  margin-right: 6px;
+  overflow: hidden;
+}
+
+.msgwrap .msg .msgleft .minImg .small:hover {
+  width: 60px;
+  height: 38px;
+  border: 2px solid #f1494e;
+}
+
+.msgwrap .msg .msgleft .max {
+  width: 352px;
+  height: 286px;
+  position: absolute;
+  top: 0;
+  left: 372px;
+  display: none;
+  overflow: hidden;
+}
+
+.msgwrap .msg .msgleft .max img {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.msgwrap .msg .msgright {
+  width: 610px;
+  height: 100%;
+}
+
+.msgwrap .msg .msgright .dynamic .title {
+  width: 100%;
+  height: 60px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #333;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+
+.msgwrap .msg .msgright .dynamic > div {
+  height: 30px;
+  line-height: 30px;
+  margin: 5px 0;
+}
+
+.msgwrap .msg .msgright .dynamic > .market > .through {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.msgwrap .msg .msgright .dynamic > .liziPrice > .f1494e {
+  color: #ff616b;
+  font-size: 16px;
+}
+
+.msgwrap .msg .msgright .dynamic > .salesVolume {
+  color: #999;
+}
+
+.msgwrap .msg .msgright .dynamic > .salesVolume > .recent {
+  display: block;
+  float: right;
+  margin-right: 460px;
+}
+
+.msgwrap .msg .msgright .dynamic > .salesVolume > .recent > .sales {
+  font-style: normal;
+  color: #f1494e;
+}
+
+.msgwrap .msg .msgright > .number {
+  height: 36px;
+  line-height: 36px;
+  width: 100%;
+}
+
+.msgwrap .msg .msgright > .number > button {
+  float: left;
+  color: #999;
+  background: #fff;
+  outline: none;
+}
+
+.msgwrap .msg .msgright > .number > .span1 {
+  float: left;
+  margin-right: 26px;
+}
+
+.msgwrap .msg .msgright > .number > .reduce, .msgwrap .msg .msgright > .number .add, .msgwrap .msg .msgright > .number .num {
+  width: 26px;
+  height: 24px;
+  line-height: 22px;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin-top: 6px;
+  color: #333;
+}
+
+.msgwrap .msg .msgright > .number > .reduce, .msgwrap .msg .msgright > .number .add {
+  background: #ddd;
+}
+
+.msgwrap .msg .msgright > .number > .num {
+  width: 54px;
+}
+
+.msgwrap .msg .msgright > .div6 {
+  width: 140px;
+  height: 36px;
+  margin: 10px 0 10px 10px;
+  background: #ff616b;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  columns: #fff;
+  border-radius: 3px;
+}
+
+.msgwrap .msg .msgright > .server {
+  color: #999;
+  padding: 20px 0;
+}
+
+.msgwrap .msg .msgright .span1 {
+  color: #616060;
+  font-size: 12px;
+  padding-left: 11px;
+}

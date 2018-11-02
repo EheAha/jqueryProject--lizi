@@ -1,0 +1,324 @@
+@charset "UTF-8";
+.second_purchase {
+  width: 100%;
+  background: #f5f5f5;
+}
+
+.second_purchase .countdown {
+  height: 38px;
+  width: 1180px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  line-height: 38px;
+}
+
+.second_purchase .countdown .sixtySecond {
+  color: #34495e;
+}
+
+.second_purchase .countdown .sixtySecond > span {
+  display: block;
+  float: left;
+  margin-left: 5px;
+}
+
+.second_purchase .countdown .sixtySecond .tenDigit {
+  width: 18px;
+  height: 25px;
+  margin-top: 5px;
+  background: url(../img/header-img/num-8.png) -1px no-repeat;
+  background-position-y: -216px;
+}
+
+.second_purchase .countdown .sixtySecond .singleDigit {
+  width: 18px;
+  height: 25px;
+  margin-top: 5px;
+  background: url(../img/header-img/num-8.png) -1px no-repeat;
+  background-position-y: 0px;
+}
+
+.second_purchase .pur_wrap {
+  width: 1180px;
+  height: 412px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.second_purchase .pur_wrap .purchase_goods {
+  width: 1180px;
+  height: 412px;
+  margin: 0 auto;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.second_purchase .pur_wrap .purchase_goods > li {
+  float: left;
+  width: 380px;
+  height: 412px;
+  margin-left: 20px;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.second_purchase .pur_wrap .purchase_goods > li .pur_img {
+  padding: 0 45px;
+  height: 290px;
+}
+
+.second_purchase .pur_wrap .purchase_goods > li .pur_img > img {
+  width: 290px;
+  height: 290px;
+}
+
+.second_purchase .pur_wrap .purchase_goods > li .bghight {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 380px;
+  /*  height:122px; */
+  z-index: 5;
+  background: #ff666b;
+}
+
+.second_purchase .pur_wrap .purchase_goods > li .pur_data {
+  height: 122px;
+  width: 320px;
+  padding: 0 30px;
+  position: absolute;
+  top: 290px;
+  left: 0;
+  z-index: 6;
+}
+
+.second_purchase .pur_wrap .purchase_goods > li .pur_data .title {
+  line-height: 22px;
+  width: 100%;
+}
+
+.second_purchase .pur_wrap .purchase_goods > li .pur_data .title .pur_icon {
+  display: block;
+  float: left;
+  font-style: normal;
+  padding: 0 5px;
+  border: 1px solid #ff666b;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  margin-right: 5px;
+  background: #fff;
+  color: #ff666b;
+}
+
+.second_purchase .pur_wrap .purchase_goods > li .pur_data .title .name {
+  line-height: 26px;
+  color: #34495e;
+}
+
+.second_purchase .pur_wrap .purchase_goods > li .pur_data .pur_price {
+  width: 200px;
+  text-align: center;
+}
+
+.second_purchase .pur_wrap .purchase_goods > li .pur_data .pur_price .price {
+  color: #ff666b;
+  font-size: 24px;
+  padding-top: 10px;
+  line-height: 30px;
+}
+
+.second_purchase .pur_wrap .purchase_goods > li .pur_data .pur_price .marketpPrice {
+  color: #666666;
+  text-decoration: line-through;
+}
+
+.second_purchase .pur_wrap .purchase_goods > li .pur_data .snatch {
+  display: inline-block;
+  width: 110px;
+  height: 36px;
+  background: #ff666b;
+  text-align: center;
+  line-height: 36px;
+  margin-top: 20px;
+}
+
+.second_purchase .pur_wrap .purchase_goods li:hover .pur_data > .title > .name {
+  color: #fff;
+}
+
+.second_purchase .pur_wrap .purchase_goods li:hover .pur_data > .pur_price > .price {
+  color: #e3ef16;
+}
+
+.second_purchase .pur_wrap .purchase_goods li:hover .pur_data > .pur_price > .marketpPrice {
+  color: #fff;
+}
+
+.second_purchase .pur_wrap .purchase_goods li:hover .snatch {
+  background: #fff;
+  color: #ff666b;
+}
+
+.second_purchase .pur_wrap .purchase_goods > li:nth-child(1) {
+  margin-left: 0;
+}
+
+.second_purchase .pur_btn {
+  width: 100px;
+  height: 12px;
+  padding-top: 14px;
+  margin: 0 auto;
+}
+
+.second_purchase .pur_btn > a {
+  display: block;
+  float: left;
+  text-indent: -9999px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #c4c4c4;
+  background: #c4c4c4;
+  margin-right: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.second_purchase .pur_btn .active2 {
+  background: #7a7a7a;
+  border-color: #7a7a7a;
+}
+
+.second_purchase .pur_dir {
+  position: relative;
+}
+
+.second_purchase .pur_dir > span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #000;
+  opacity: .3;
+  z-index: 5;
+  position: absolute;
+  top: -280px;
+  color: #fff;
+  font-family: "宋体";
+  font-size: 40px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.second_purchase .pur_dir > .pur_left {
+  left: 90px;
+}
+
+.second_purchase .pur_dir > .pur_right {
+  right: 90px;
+}
+
+.second_purchase .pur_dir > span:hover {
+  background: #000;
+  opacity: 1;
+}
+
+.hot {
+  width: 100%;
+  height: auto;
+  background: #f5f5f5;
+}
+
+.hot .hot_top {
+  height: 74px;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.hot .hot_top > span {
+  display: block;
+  float: left;
+  height: 74px;
+  line-height: 74px;
+  margin-right: 15px;
+}
+
+.hot .hot_top .hot_active {
+  font-size: 28px;
+  color: #34495e;
+  font-weight: bold;
+}
+
+.hot .hot_top .hot_del {
+  font-size: 14px;
+  line-height: 80px;
+  color: #9e9e9e;
+}
+
+.hot .hot_img {
+  width: 1180px;
+  height: 1198px;
+  margin: 0 auto;
+}
+
+.hot .hot_img > li {
+  float: left;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.hot .hot_img > li > a {
+  float: left;
+  width: 580px;
+  height: 386px;
+}
+
+.hot .hot_img > li > a > img {
+  width: 580px;
+  height: 386px;
+}
+
+.hot .hot_img > li > .hot_count {
+  width: 280px;
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+.hot .hot_img > li > .hot_count span {
+  display: block;
+  float: left;
+  padding: 0 3px;
+  color: #999999;
+}
+
+.hot .hot_img > li > .hot_count .days, .hot .hot_img > li > .hot_count .hours, .hot .hot_img > li > .hot_count .minutes, .hot .hot_img > li > .hot_count .seconds {
+  color: #ff666b;
+}
+
+.hot .hot_img > li:nth-child(odd) {
+  margin-right: 20px;
+}
+
+.hot .hot_img > li:nth-child(5) {
+  margin-bottom: 0;
+}
+
+.hot .hot_img > li:nth-child(6) {
+  margin-bottom: 0;
+}

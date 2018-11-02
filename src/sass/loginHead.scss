@@ -1,0 +1,44 @@
+.topwrap{
+    width:100%;
+    background:#222222;
+    height:46px;
+
+    &>.top{
+        width:1008px;
+        height:46px;
+        margin:0 auto;
+
+        &>div{
+            /* float: left;
+            width:182px;
+            height: 68px; */
+            &>.topImg{
+                width:182px;
+                height: 68px;
+                float: left;
+            }
+            &>ul{
+                float: right;
+                width:820px;
+                height: 46px;
+    
+                &>li{
+                    
+                
+                    &>a{
+                        display:block;
+                        float: left;
+                        line-height: 46px;
+                        padding:0 14px;
+                        font-size: 14px;
+                        color:#fff;
+                    }
+                }
+                &>li:hover a{
+                    background: #000;
+                }
+            }
+        }
+        
+    }
+}
